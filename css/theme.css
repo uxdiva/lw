@@ -1,0 +1,10 @@
+:root {
+    --color-primary: #88a2bc;
+    --color-primary-dark: #4f6a8f;
+    --color-secondary: #f0dbb0;
+    --color-secondary-dark: #efb680;
+    --color-accent: #d99477;
+
+    --font-primary: "Open Sans", sans-serif;
+    --font-secondary: "Yusei Magic", sans-serif;
+}
