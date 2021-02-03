@@ -1,0 +1,8 @@
+.card {
+    border: 2px solid var(--color-primary-dark);
+    border-radius: .4rem;
+}
+
+.card div {
+    padding: .5rem
+}

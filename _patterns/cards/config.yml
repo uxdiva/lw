@@ -1,0 +1,16 @@
+patterns:
+  card:
+    width: 400
+    fields:
+      - name: title
+        type: string
+        example: My cool cat
+      - name: image
+        type: image
+        example: http://placekitten.com/200/150
+      - name: text
+        type: string
+        example: "Cats are fats i like to pets them they like to meow back. Jump launch to pounce upon little yarn mouse."
+      - name: button_text
+        type: string
+        example: Rescue a Cat
