@@ -8,3 +8,26 @@
     --font-primary: "Open Sans", sans-serif;
     --font-secondary: "Yusei Magic", sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-secondary);
+    color: var(--color-primary-dark)
+}
+
+body {
+    font-family: var(--font-primary);
+}
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+a:hover {
+    color: var(--color-primary-dark)
+}
+
+/* @utility to apply secondary typeface */ 
+.font-secondary {
+    font-family: var(--font-secondary);
+}
