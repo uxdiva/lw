@@ -11,6 +11,7 @@ patterns:
       - name: text
         type: string
         example: "Cats are fats i like to pets them they like to meow back. Jump launch to pounce upon little yarn mouse."
+        required: false
       - name: button_text
         type: string
         example: Rescue a Cat
