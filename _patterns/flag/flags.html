@@ -1,0 +1,10 @@
+{% assign flag = page.flag %}
+{% if flag %}
+<ul>
+    {% for flags in flag %}
+        <li><h4>{{ flags.title }}</h4> 
+            <p>{{ flags.body}} </p>
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}
